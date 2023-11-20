@@ -107,8 +107,9 @@ parser.add_argument('--verbose', help="Show missions verbose", action='store_tru
 parser.add_argument('--info', help="Show info", action='store_true')
 parser.add_argument('--debug', help="Show debug", action='store_true')
 parser.add_argument('--no_init', help="No backlog or initialize vehicles", action='store_true')
+
 parser.add_argument('--config', help='Simulation specified in json file', default='HSim.json') 
-#parser.add_argument('--config', help='Simulation specified in json file', default='SimulationTest.json') 
+#parser.add_argument('--config', help='Simulation specified in json file', default='HSimv2.json') 
 args = parser.parse_args()
 
 log = logging.getLogger( "Simulation" )
